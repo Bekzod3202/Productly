@@ -1,0 +1,21 @@
+@use "../abstracts/mixins";
+
+.container{
+    width: 1240px;
+    padding: 20px;
+}
+
+@include mixins.media-sm {
+    .container{
+        width: 600px;
+    }
+}
+
+@include mixins.media-md{
+    .container{
+        width: 800px;
+    }
+}
+
+
+

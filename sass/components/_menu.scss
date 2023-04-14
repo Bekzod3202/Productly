@@ -1,0 +1,50 @@
+@use "../abstracts/variables";
+@use "../abstracts/functions";
+@use "../abstracts/mixins";
+
+header {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 78px;
+        position: sticky;
+
+        &-menu__link {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            color: #2F2811;
+        }
+    }
+    
+    .nav-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 17px;
+    }
+    
+    .navbar-btn{
+        height: 46px;
+        width: 104px;
+        left: 0px;
+        top: 0px;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #173A56;
+        background-color:  #FF9900;
+        border: none;
+    }
+
+    &-btn-span{
+        background-color: #ffffff;
+    }
+  
+    
+}
